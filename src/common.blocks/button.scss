@@ -5,8 +5,9 @@
   @include mixins.button($baseFontColor, $secondary, $hover);
 
   &_outline {
-    @include mixins.button($baseFontColor, white, $secondaryBackground);
     border: 2px solid $secondaryBackground;
+    @include mixins.button($baseFontColor, white, $secondaryBackground);
+    
 
     &:hover {
       color: white;

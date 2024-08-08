@@ -34,11 +34,11 @@
   }
 
   &__basket {
-    @include mixins.icon(1.8rem, 'basket-2');
-    @include mixins.link($primary, $hover);
     border: none;
     position: relative;
     cursor: pointer;
+    @include mixins.icon(1.8rem, 'basket-2');
+    @include mixins.link($primary, $hover);
 
     &-counter {
       position: absolute;
